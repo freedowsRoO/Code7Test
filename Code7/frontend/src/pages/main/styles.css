@@ -1,0 +1,13 @@
+.billUser-list {
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.billUser-list article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #151a4e;
+}
