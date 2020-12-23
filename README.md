@@ -52,6 +52,16 @@ Para rodar a aplicação será necessário levantar o ambiente de desenvolviment
 	2. Após carregar rode o comando "npm start" para executar o servidor.
 ---
 
+## :memo: Como utilizar a aplicação 
+	
+	A aplicação é um cadastro de contas.
+	
+	Para inserir uma nova conta basta preencher o formulário
+	e clicar em salvar, isso irá criar um Card na lateral esquerda totalizando todas as contas dessa pessoa.
+	
+	Para visualizar as contas de uma determinada pessoa, basta clicar no card da pessoa que irá carregar as contas na tabela abaixo. A tabela também conta com um botão de exclusão que exclui a conta e atualiza os cards laterais.
+
+
 Teste densenvolvido por Jefferson Fabrin :wave: [Get in touch!](https://www.linkedin.com/in/jeffersonfabrin/)
 
 [nodejs]: https://nodejs.org/
