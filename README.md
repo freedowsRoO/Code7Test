@@ -42,14 +42,20 @@ Para rodar a aplicação será necessário levantar o ambiente de desenvolviment
 <h4>Backend</h4>
 
 	Com os recursos instalados
-	1. abra o terminal dentro da pasta do projeto e execute o comando npm -init para carregar os arquivos necessários para a aplicação. 
-	2. Após carregar rode o comando "npm run dev" para executar o servidor.
+	1. abra o terminal dentro da pasta do projeto e 
+	execute o comando npm -init para carregar os 
+	arquivos necessários para a aplicação. 
+	2. Após carregar rode o comando "npm run dev" 
+	para executar o servidor.
 
 <h4>Frontend</h4>
 
 	Com os recursos instalados
-	1. Abra o terminal dentro da pasta do projeto e execute o comando npm -init para carregar os arquivos necessários para a aplicação. 
-	2. Após carregar rode o comando "npm start" para executar o servidor.
+	1. Abra o terminal dentro da pasta do projeto e execute 
+	o comando npm -init para carregar os arquivos necessários 
+	para a aplicação. 
+	2. Após carregar rode o comando "npm start" para executar 
+	o servidor.
 ---
 
 ## :memo: Como utilizar a aplicação 
