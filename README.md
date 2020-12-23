@@ -28,7 +28,7 @@
 
 <h4>Backend</h4>
 
-	Com os recursos instalados, abra o terminal dentro da pasta do projeto e execute o comando npm -init para carregar os arquivos necessários para a aplicação. Após carregar rode o comando "npm run dev" para executar o servidor.
+	Com os recursos instalados, abra o terminal dentro da <br></br> pasta do projeto e execute o comando npm -init para carregar os arquivos necessários para a aplicação. Após carregar rode o comando "npm run dev" para executar o servidor.
 
 <h4>Frontend</h4>
 
