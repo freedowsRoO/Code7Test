@@ -1,25 +1,43 @@
-<h3>Recursos necessários</h3>
-	
-	• Node 14.15
-	• Yarn 1.22
-	• ReactJS 17.0.1
+<h1 align="center">
+    CODE7 TEST <br />
+    Node.js | ReactJS
+</h1>
+
+<p align="center">
+  <a href="#rocket-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#warning-prerequisites">Pre requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>
+</p>
+
+## :rocket: Tecnologias
+Tecnologias utilizadas:
+
+-  [Node.js][nodejs]
+-  [Express](https://expressjs.com/)
+-  [nodemon](https://github.com/remy/nodemon)
+-  [MongoDB](https://mongodb.com)
+-  [Mongoose](https://mongoosejs.com/)
+-  [ReactJS](https://reactjs.org/)
+-  [axios](https://github.com/axios/axios)
+-  [Sucrase](https://mongodb.com)
+-  [Date-fns](https://github.com/axios/axios)
+-  [Docker](https://github.com/axios/axios)
+-  [CORS](https://github.com/axios/axios)
+-  [VS Code][vc]
+
+## :warning: Pre requisitos
+
+In order to use and test the mobile app on a simulator or on your smartphone, you should've already setup the development environment for React Native applications. You can follow the following article (PT-BR) to setup your environment:
+
+[React Native Environment (Android/iOS)](https://docs.rocketseat.dev/ambiente-react-native/introducao)
+  
+## :information_source: Como usar
+
+Para clonar e utilizar essa aplicação você precisara dos seguintes recursos:
+	• [Node.js v14.15][nodejs] ou superior
+	• [Yarn v1.22][yarn] ou superior
+	• ReactJS 17.0.1 ou superior
 	• Docker com mongoDB (docker run --name mongodb -p 27017:27017 -d mongo)
-
-<h3>Bibliotecas utilizadas no Backend</h3>
-
-	• NodeJS
-	• Express
-	• Sucrase: Para facilitar a sintaxe dos imports do node.
-	• Nodemon: Para atualizar automaticamente o servidor conforme alterações no código.
-	• Mongoose: Permite a interação com o mongoDB.
-	• CORS: Permite o acesso de qualquer aplicação fora do domínio.
-	• Axios: Para acessar a API do JSONPlaceHolder.
-
-<h3>Bibliotecas utilizadas no Frontend</h3>
-
-	• ReactJS 
-	• Axios: Para acessar a API criada com node.
-	• Date-fns para formatação de datas.
 
 <h3>Rodando a aplicação</h3>
 
@@ -37,3 +55,16 @@
 	Com os recursos instalados
 	1. Abra o terminal dentro da pasta do projeto e execute o comando npm -init para carregar os arquivos necessários para a aplicação. 
 	2. Após carregar rode o comando "npm start" para executar o servidor.
+
+## :memo: License
+This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/instagram-fullStack/blob/master/LICENSE) for more information.
+
+---
+
+Teste densenvolvido por Jefferson Fabrin :wave: [Get in touch!](https://www.linkedin.com/in/jeffersonfabrin/)
+
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
