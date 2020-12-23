@@ -14,17 +14,15 @@ Tecnologias utilizadas:
 
 -  [Node.js v14.15][nodejs]
 -  [Yarn v1.22][yarn]
--  [ReactJS 17.0.1]
 -  [Express](https://expressjs.com/)
 -  [nodemon](https://github.com/remy/nodemon)
 -  [MongoDB](https://mongodb.com)
 -  [Mongoose](https://mongoosejs.com/)
 -  [ReactJS](https://reactjs.org/)
 -  [axios](https://github.com/axios/axios)
--  [Sucrase](https://mongodb.com)
--  [Date-fns](https://github.com/axios/axios)
--  [Docker](https://github.com/axios/axios)
--  [CORS](https://github.com/axios/axios)
+-  [Sucrase](https://www.npmjs.com/package/sucrase)
+-  [Date-fns](https://date-fns.org/docs/Getting-Started#installation)
+-  [Docker](https://www.docker.com/get-started)
 -  [VS Code][vc]
 
 ## :warning: Pre requisitos
@@ -38,7 +36,8 @@ Para rodar a aplicação será necessário levantar o ambiente de desenvolviment
 <h3>Rodando a aplicação</h3>
 
 <h4>Banco de dados</h4>
-	Startar o banco de dados mongo pelo docker
+
+	1. Startar o banco de dados mongo pelo docker
 
 <h4>Backend</h4>
 
