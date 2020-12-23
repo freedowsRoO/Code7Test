@@ -12,7 +12,9 @@
 ## :rocket: Tecnologias
 Tecnologias utilizadas:
 
--  [Node.js][nodejs]
+-  [Node.js v14.15][nodejs]
+-  [Yarn v1.22][yarn]
+-  [ReactJS 17.0.1]
 -  [Express](https://expressjs.com/)
 -  [nodemon](https://github.com/remy/nodemon)
 -  [MongoDB](https://mongodb.com)
@@ -27,22 +29,16 @@ Tecnologias utilizadas:
 
 ## :warning: Pre requisitos
 
-In order to use and test the mobile app on a simulator or on your smartphone, you should've already setup the development environment for React Native applications. You can follow the following article (PT-BR) to setup your environment:
+Para rodar a aplicação será necessário levantar o ambiente de desenvolvimento com node, reactJS e docker. Para isso você pode seguir a seguinte documentação:
 
-[React Native Environment (Android/iOS)](https://docs.rocketseat.dev/ambiente-react-native/introducao)
+[React Native Environment (Android/iOS)](https://react-native.rocketseat.dev/)
   
 ## :information_source: Como usar
-
-Para clonar e utilizar essa aplicação você precisara dos seguintes recursos:
-	• [Node.js v14.15][nodejs] ou superior
-	• [Yarn v1.22][yarn] ou superior
-	• ReactJS 17.0.1 ou superior
-	• Docker com mongoDB (docker run --name mongodb -p 27017:27017 -d mongo)
 
 <h3>Rodando a aplicação</h3>
 
 <h4>Banco de dados</h4>
-	Após instalação do mongo no docker, execute o banco de dados.
+	Startar o banco de dados mongo pelo docker
 
 <h4>Backend</h4>
 
@@ -55,10 +51,6 @@ Para clonar e utilizar essa aplicação você precisara dos seguintes recursos:
 	Com os recursos instalados
 	1. Abra o terminal dentro da pasta do projeto e execute o comando npm -init para carregar os arquivos necessários para a aplicação. 
 	2. Após carregar rode o comando "npm start" para executar o servidor.
-
-## :memo: License
-This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/instagram-fullStack/blob/master/LICENSE) for more information.
-
 ---
 
 Teste densenvolvido por Jefferson Fabrin :wave: [Get in touch!](https://www.linkedin.com/in/jeffersonfabrin/)
