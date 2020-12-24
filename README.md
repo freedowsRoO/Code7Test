@@ -10,6 +10,7 @@
 </p>
 
 ## :rocket: Tecnologias
+#rocket-technologies
 Tecnologias utilizadas:
 
 -  [Node.js v14.15][nodejs]
@@ -26,10 +27,12 @@ Tecnologias utilizadas:
 -  [VS Code][vc]
 
 ## :warning: Pre requisitos
+#warning-prerequisites
 
 Para rodar a aplicação será necessário levantar o ambiente de desenvolvimento com [Node][nodejs], [ReactJS](https://reactjs.org/) e [Docker](https://www.docker.com/get-started).
   
 ## :information_source: Como usar
+#information_source-how-to-use
 
 <h3>Rodando a aplicação</h3>
 
