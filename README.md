@@ -40,7 +40,7 @@ Para rodar a aplicação será necessário levantar o ambiente de desenvolviment
 <h4>Backend</h4>
 
 	Com os recursos instalados
-	1. abra o terminal dentro da pasta do projeto e 
+	1. abra o terminal dentro da pasta 'backend' do projeto e 
 	execute o comando npm install para carregar os 
 	arquivos necessários para a aplicação. 
 	2. Após carregar rode o comando "npm run dev" 
@@ -49,7 +49,7 @@ Para rodar a aplicação será necessário levantar o ambiente de desenvolviment
 <h4>Frontend</h4>
 
 	Com os recursos instalados
-	1. Abra o terminal dentro da pasta do projeto e execute 
+	1. Abra o terminal dentro da pasta 1frontend' do projeto e execute 
 	o comando yarn install para carregar os arquivos necessários 
 	para a aplicação. 
 	2. Após carregar rode o comando "npm start" para executar 
