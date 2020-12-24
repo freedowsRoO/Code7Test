@@ -7,15 +7,21 @@ class billController {
         return res.json(bills);
     }
 
-    //busca uma unica conta
-    async show(req, res) {
+    //busca as contas filtrando o usuario
+    async showBillById(req, res) {
+        console.log(req.params.id);
         const bill = await Bill.findById(req.params.id);
+        return res.json(bill);
+    }
+
+    //busca as contas filtrando o usuario
+    async show(req, res) {
+        const bill = await Bill.find({ userName: req.params.userName});
         return res.json(bill);
     }
 
     //busca as contas e agrupa para cada usuario
     async showbill(req, res) {
-        console.log('teste') 
         const bill = await Bill.find();
        
         var userBills = bill;
@@ -23,29 +29,53 @@ class billController {
         var arr = [];
         var valueSum = 0;
         var user = '';
+        var bFind = false;
 
         for (var i = 0; i < userBills.length; i++) {    
-            //Se o usuario do array for diferente da variavel entra no laço  
-            
-           if (userBills[i].userName != user) {               
+            //Se o usuario do array for diferente da variavel entra no laço             
+           for (var x = 0; x < arr.length; x++) {
+                
+                if (arr[x].user == userBills[i].userName) {
+                    bFind = true;
+                    break;          
+                } else { bFind = false }                
+            } 
 
-               for (var x = 0; x < sumBills.length; x++) { 
-                   
-                   if (sumBills[x].userName = user) {
-                       valueSum += parseFloat(sumBills[x].value);       
+           if (!bFind) { 
+                //se entrou aqui é pq o usuario ja foi somado e nao precisa
+                //mais entrar no for abaixo
+                for (var x = 0; x < sumBills.length; x++) { 
+                
+                    if (sumBills[x].userName == userBills[i].userName) {
+                        valueSum += parseFloat(sumBills[x].value);       
                     }                                                            
-               } 
-               arr.push({user, valueSum}); 
-               user= userBills[i].userName; 
-               valueSum = 0;                
-            }  
-       }       
+                }                
+
+                user = userBills[i].userName;    
+                arr.push({user, valueSum});
+                valueSum = 0;
+            }                               
+        }       
         return res.json(arr);
     }
 
     //salva a conta
     async store(req, res) {
-        const bill = await Bill.create(req.body);
+        const idBill = req.body.id;
+        var bill = [];
+
+        if (idBill != '' ) {
+            const bExists = await Bill.findById(idBill); 
+                   
+            if (bExists === null) {
+                bill = await Bill.create(req.body);       
+            } else {
+                bill = await Bill.findByIdAndUpdate(idBill, req.body, { new: true });
+            } 
+        } else {
+            bill = await Bill.create(req.body);    
+        }
+              
         return res.json(bill);
     }
 
@@ -57,7 +87,7 @@ class billController {
 
     async destroy(req, res) {
         const bill = await Bill.findByIdAndRemove(req.params.id);
-        return res.send();
+        return res.json(bill);
     } 
 }
 export default new billController;

@@ -16,7 +16,8 @@ routes.get('/users', async(req, res) => {
 })  
 
 routes.get('/bills/', billController.index);
-routes.get('/bills/:id', billController.show);
+routes.get('/bills/:userName', billController.show);
+routes.get('/userbills/:id', billController.showBillById);
 routes.get('/userbills', billController.showbill);
 routes.post('/bills', billController.store);
 routes.put('/bills/:id', billController.update);
