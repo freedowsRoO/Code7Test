@@ -33,7 +33,10 @@ Para rodar a aplicação será necessário levantar o ambiente de desenvolviment
 
 <h4>Banco de dados</h4>
 
-	1. Startar o banco de dados mongo pelo docker
+	1. Instalar o banco de dados mongo pelo docker: 
+		$docker pull mongo
+	2. Após baixado a imagem do mongo, iniciar o banco de dados:
+		$docker run --name mongodb -p 27017:27017 -d mongo
 
 <h4>Backend</h4>
 
