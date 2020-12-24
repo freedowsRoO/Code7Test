@@ -27,9 +27,7 @@ Tecnologias utilizadas:
 
 ## :warning: Pre requisitos
 
-Para rodar a aplicação será necessário levantar o ambiente de desenvolvimento com Node, ReactJS e Docker. Para isso você pode seguir a seguinte documentação:
-
-[React Native Environment (Android/iOS)](https://react-native.rocketseat.dev/)
+Para rodar a aplicação será necessário levantar o ambiente de desenvolvimento com [Node][nodejs], [ReactJS](https://reactjs.org/) e [Docker](https://www.docker.com/get-started).
   
 ## :information_source: Como usar
 
