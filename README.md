@@ -28,8 +28,6 @@ Tecnologias utilizadas:
 ## :warning: Pre requisitos
 
 Para rodar a aplicação será necessário levantar o ambiente de desenvolvimento com [Node][nodejs], [ReactJS](https://reactjs.org/) e [Docker](https://www.docker.com/get-started).
-  
-## :information_source: Como usar
 
 <h3>Rodando a aplicação</h3>
 
@@ -56,7 +54,7 @@ Para rodar a aplicação será necessário levantar o ambiente de desenvolviment
 	o servidor.
 ---
 
-## :memo: Como utilizar a aplicação 
+## :memo: Como usar
 	
 	A aplicação é um cadastro de contas.
 	
