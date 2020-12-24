@@ -82,6 +82,13 @@ Para rodar a aplicação será necessário levantar o ambiente de desenvolviment
 	abaixo. Na tabela há 2 botões, um para editar e outro para excluir.
 	Ao clicar no editar o sistema irá posicionar os dados no formulário
 	e após ser modificado é só clicar em salvar novamente.
+	
+	Excluindo contas:
+	1.Para excluir alguma conta basta clicar no card do usuário
+	na esquerda que irá listar todas as contas do mesmo na tabela
+	abaixo. Na tabela há 2 botões, um para editar e outro para excluir.
+	Ao clicar no excluir o sistema irá deletar a determinada conta e atualizar
+	o totalizador.
 
 
 Teste densenvolvido por Jefferson Fabrin :wave: [Get in touch!](https://www.linkedin.com/in/jeffersonfabrin/)
