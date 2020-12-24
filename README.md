@@ -58,31 +58,31 @@ Para rodar a aplicação será necessário levantar o ambiente de desenvolviment
 
 ## :memo: Como usar
 	
-	A aplicação é um cadastro de contas.
+	A aplicação é um cadastro de dívidas.
 	
-	Inserindo novas contas:
-	1. Para inserir uma nova conta basta preencher o formulário
+	Inserindo novas dívidas:
+	1. Para inserir uma nova dívida basta preencher o formulário
 	e clicar em salvar, isso irá criar um Card na lateral 
 	esquerda totalizando todas as contas dessa pessoa e 
 	também irá mostrar na tabela todas as contas da pessoa 
 	cadastrada.
 	
-	Visualizando as contas de cada usuario:
-	1. Para visualizar as contas de uma determinada pessoa, 
+	Visualizando as dívidas de cada usuario:
+	1. Para visualizar as dívidas de uma determinada pessoa, 
 	basta clicar no card da pessoa que irá carregar as 
 	contas na tabela abaixo. A tabela também conta com 
 	um botão de exclusão que exclui a conta e atualiza 
 	os cards laterais.
 	
 	Editando contas:
-	1. Para editar alguma conta basta clicar no card do usuário
-	na esquerda que irá listar todas as contas do mesmo na tabela
+	1. Para editar alguma dívida basta clicar no card do usuário
+	na esquerda que irá listar todas as dívidas do mesmo na tabela
 	abaixo. Na tabela há 2 botões, um para editar e outro para excluir.
 	Ao clicar no editar o sistema irá posicionar os dados no formulário
 	e após ser modificado é só clicar em salvar novamente.
 	
 	Excluindo contas:
-	1.Para excluir alguma conta basta clicar no card do usuário
+	1.Para excluir alguma dívida basta clicar no card do usuário
 	na esquerda que irá listar todas as contas do mesmo na tabela
 	abaixo. Na tabela há 2 botões, um para editar e outro para excluir.
 	Ao clicar no excluir o sistema irá deletar a determinada conta e atualizar
