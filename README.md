@@ -43,7 +43,7 @@ Para rodar a aplicação será necessário levantar o ambiente de desenvolviment
 
 	Com os recursos instalados
 	1. abra o terminal dentro da pasta do projeto e 
-	execute o comando npm -init para carregar os 
+	execute o comando npm install para carregar os 
 	arquivos necessários para a aplicação. 
 	2. Após carregar rode o comando "npm run dev" 
 	para executar o servidor.
@@ -52,7 +52,7 @@ Para rodar a aplicação será necessário levantar o ambiente de desenvolviment
 
 	Com os recursos instalados
 	1. Abra o terminal dentro da pasta do projeto e execute 
-	o comando npm -init para carregar os arquivos necessários 
+	o comando yarn install para carregar os arquivos necessários 
 	para a aplicação. 
 	2. Após carregar rode o comando "npm start" para executar 
 	o servidor.
@@ -64,7 +64,9 @@ Para rodar a aplicação será necessário levantar o ambiente de desenvolviment
 	
 	Para inserir uma nova conta basta preencher o formulário
 	e clicar em salvar, isso irá criar um Card na lateral 
-	esquerda totalizando todas as contas dessa pessoa.
+	esquerda totalizando todas as contas dessa pessoa e 
+	também irá mostrar na tabela todas as contas da pessoa 
+	cadastrada.
 	
 	Para visualizar as contas de uma determinada pessoa, 
 	basta clicar no card da pessoa que irá carregar as 
