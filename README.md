@@ -6,7 +6,7 @@
 <p align="center">
   <a href="#rocket-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#warning-Pre-requisitos">Pre requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_sourceComo-usar">Como usar</a>
+  <a href="#memo-Como-usar">Como usar</a>
 </p>
 
 ## :rocket: Tecnologias
