@@ -52,7 +52,6 @@ Para rodar a aplicação será necessário levantar o ambiente de desenvolviment
 	para a aplicação. 
 	2. Após carregar rode o comando "npm start" para executar 
 	o servidor.
----
 
 ## :memo: Como usar
 	
