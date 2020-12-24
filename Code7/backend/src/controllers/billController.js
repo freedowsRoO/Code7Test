@@ -7,20 +7,20 @@ class billController {
         return res.json(bills);
     }
 
-    //busca as contas filtrando o usuario
+    //busca as contas filtrando o ID da conta
     async showBillById(req, res) {
         console.log(req.params.id);
         const bill = await Bill.findById(req.params.id);
         return res.json(bill);
     }
 
-    //busca as contas filtrando o usuario
+    //busca todas as contas do usuario
     async show(req, res) {
         const bill = await Bill.find({ userName: req.params.userName});
         return res.json(bill);
     }
 
-    //busca as contas e agrupa para cada usuario
+    //busca as contas e retorna o total devedor para cada usuario
     async showbill(req, res) {
         const bill = await Bill.find();
        
@@ -59,7 +59,10 @@ class billController {
         return res.json(arr);
     }
 
-    //salva a conta
+    //salva ou edita conta
+    //Caso a API receba o ID como parametro, o sistema busca
+    //o usuario pela ID e caso encontra edita as informações
+    //caso não encontre insere um novo registro.
     async store(req, res) {
         const idBill = req.body.id;
         var bill = [];
@@ -84,7 +87,7 @@ class billController {
         const bill = await Bill.findByIdAndUpdate(req.params.id, req.body, { new: true });
         return res.json(bill);
     }
-
+    //Deleta a consta do usuario
     async destroy(req, res) {
         const bill = await Bill.findByIdAndRemove(req.params.id);
         return res.json(bill);
